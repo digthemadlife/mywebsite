@@ -1,0 +1,138 @@
+body
+{
+	background-color: #4262c9;
+	font-family: "Bell MT"; sans-serif;
+	font-size: 18px;
+	color: #000000;
+}
+
+.wrapper
+{
+	width:900px;
+	margin:auto;
+}
+
+
+h2
+{
+	color:#4262c9;
+}
+
+
+a
+{
+	text-decoration:none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.sidebar
+{
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 200px;
+}
+
+.sidebar a
+{
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding:8px;	
+	text-decoration:none;
+	color: #000000;
+}
+
+.sidebar a:hover
+{
+	background-color:#4262c9;
+	color:#FFFFFF;
+}
+
+.maincontentarea
+{
+	float:center;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+
+#pic
+{
+	width:200px;
+}
+
+#pic img
+{
+	border-style:double;
+	border-width: 5px;
+	width: 150px;
+}
+
+h2
+{
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	padding-left: 20px;
+}
+
+.contactinfo
+{
+	font-weight: bold;
+	padding-top:20px;
+	float:center;
+}
+
+.jobcompany
+{
+	font-weight: bold;
+}
+
+.jobtitle
+{
+	font-style: italic;
+}
+
+.school
+{
+	font-weight: bold;
+}
+
+.degree
+{
+	font-style: italic;
+
+}
+
+.portfolio
+{
+	padding-right:135px;
+	margin-bottom:50px
+}
+
+.leftmargin
+{
+	font-size: 16px;
+	padding: 0px 40px 0px 40px;
+	background-color: #FFFFFF;
+}
+
+ul
+{
+	list-style-type: square;
+}
+.clear
+{
+	clear: both;
+}
+
+.foot
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+	padding:20px 0px;
+	background-color: #FFFFFF;
+	border-top: solid;
+	border-top-width: 4px;
+	border-top-color: #4262c9;
+}
