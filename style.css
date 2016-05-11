@@ -1,0 +1,335 @@
+body
+{
+	color:#000000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+}
+
+/*Links */
+a, a:hover, a:focus, a:visited
+{
+	text-decoration: none;
+	color:#124BA5;
+}
+
+#about:target:before, #experience:target:before, #portfolio:target:before
+{
+	content:"";
+	display:block;
+	height:125px; /* fixed header height*/
+	margin:-125px 0 0; /* negative fixed header height */	
+}
+
+@media (min-width: 768px){
+	/*NAV */
+	.navbar
+	{
+		min-height: 50px;
+	}
+
+	.nav-background
+	{
+		background-color: rgba(255, 255, 255, 0.4);
+		border-color:transparent;
+	}
+
+	.navbar-nav > li > a
+	{
+		font-size: 20px;
+	}
+
+	.navbar-nav
+	{
+		margin:20px;
+	}
+
+	header.home-image > div.container > div.row > div > h1.h1, header.services-image > div.container > div.row > div > h1.h1, header.about-image > div.container > div.row > div > h1.h1/*add the rest when built */
+	{
+		margin-top:300px;
+	}
+
+	.nav-menu > li > a:hover
+	{
+		font-size: 22px;
+		color: #676767;
+	}
+	
+	.nav > li > a:hover
+	{
+		color:#FFFFFF;
+		background-color:#0C326E;
+	}
+
+	.navbar-brand
+	{
+		float:left;
+		font-size:2px;
+		height:50px;
+		padding:33px 15px 15px 33px;
+		line-height: 20px;
+	}
+
+	.affix 
+	{
+	    top: 0;
+	    width: 100%;
+	    -webkit-transition: all .5s ease-in-out;
+	    -moz-transition: all .5s ease-in-out;
+	    transition: all .5s ease-in-out;
+	    background-color: #FFFFFF;
+	   	box-shadow: 0px 5px 5px #888888;
+	}
+
+	/*HERO-IMAGE*/
+	.hero-image
+	{
+		background: url("images/mountain.gif")no-repeat center center scroll;
+		background-size:cover;
+		position:relative;
+		width:100vw;
+		height:100vh;
+	}
+
+	.siteTitle
+	{
+		color:#FFFFFF !important;
+		font-size:75px;
+		text-align: center;
+	}
+
+	.gallery
+	{
+		padding-bottom: 30px;
+	}
+
+	.gallery-left
+	{
+		padding-right: 25px;
+	}
+
+	.gallery-right
+	{
+		padding-left:25px;
+	}
+
+	.descrip
+	{
+		padding-bottom: 20px;
+	}
+
+	.img-responsive
+	{
+		cursor: pointer;
+	}
+
+}
+
+/*MOBILE* STARTS HERE*/
+
+@media (max-width: 768px){
+	/*NAV */
+	.nav-background
+	{
+		background-color:#FFFFFF;
+		height:60px;
+	}
+
+	.navbar-nav
+	{
+		margin:0px;
+	}
+
+	.nav > li
+	{
+		margin:-2px;
+	}
+
+	.nav > li > a:hover
+	{
+		color: #0C326E;
+		background-color: #F1F1F1;
+	}
+
+	.navbar-nav > li > a
+	{
+		color:#FFFFFF;
+		background-color:#0C326E;
+		text-align:center;
+		text-transform:uppercase;
+		width:225px;
+		padding-top:15px;
+		padding-bottom: 15px;
+	}
+	
+	.affix
+	{
+	transition:none;
+	}
+
+	/* Hero Image */
+	.hero-image
+	{
+		background: url("/images/mountain-mobile.jpg")no-repeat center center scroll;
+		background-size:cover;
+		position:relative;
+		width:100vw;
+		height:100vh;
+	}
+
+	.siteTitle
+	{
+		color:#FFFFFF !important;
+		font-size:35px;
+		text-align: center;
+	}
+
+	h2
+	{
+		font-size:26px;
+	}
+
+	h3
+	{
+		font-size: 22px;
+	}
+
+	div.col-xs-12
+	{
+		padding-left:30px;
+		padding-right:30px;
+	}
+
+	div.col-md-8 > div.col-xs-12
+	{
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+	.descrip
+	{
+		padding-bottom: 10px;
+	}
+
+	.img-responsive
+	{
+		margin-bottom: 20px;
+	}
+
+	
+}
+/*MOBILE ENDS HERE*/
+
+.nav-button
+{
+	background:url("/images/menu-button.png");
+	background-size:35px 35px;
+	width:35px;
+	height:35px;
+	float:left;
+	margin:10px;
+}
+
+.navbar-collapse
+{
+	border:none;
+}
+
+.main-sections
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* Make content vertically center*/
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  max-width:100%;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.holder
+{
+	background-color: #F1F1F1;
+}
+
+.body-copy
+{
+	text-align:justify;
+}
+
+h2
+{
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.job
+{
+	padding-bottom: 20px;
+}
+
+.company
+{
+	margin-bottom: 0px;
+}
+
+.jobTitle
+{
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+.img-center
+{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.email
+{
+	margin-top: 20px;
+}
+
+@media (max-width: 768px){
+	.email
+	{
+		text-align: center;
+	}
+	.linkedin
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	}
+
+
+.linkedin
+{
+	margin-top: 20px;
+}
+
+footer
+{
+	color:#FFFFFF;
+	background-color: #0C326E;
+	padding-top: 25px;
+	padding-bottom:25px;
+}
