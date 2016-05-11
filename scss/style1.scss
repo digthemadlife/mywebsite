@@ -1,0 +1,31 @@
+// Colors
+$mainColor: #124BA5;
+$accentColor: #0E3A81;
+$fontColor: #000000;
+$headerColor: #FFFFFF;
+$navBackgroundColor: rgba(255, 255, 255, 0.4);
+$mainBackgroundColor: $headerColor;
+$altBackgroundColor: #F1F1F1;
+$navHoverColor: #676767;
+
+//Fonts
+$mainFont: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$mainFontSize: 16px;
+$navFontSize: 20px;
+$siteTitleSize: 75px;
+
+// Screen break
+$breakSize: 768px;
+
+body
+{
+	color: $fontColor;
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+}
+
+a, a:hover, a:focus, a:visited
+{
+	text-decoration:none;
+	color: $mainColor;
+}
